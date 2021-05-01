@@ -210,13 +210,13 @@ let c = document.getElementById("myCanvas");
         
         document.addEventListener("keyup", (event) => {
             const key = event.key;
-            if(key === "ArrowLeft"){
+            if(key === "ArrowRight"){
                 queuedAnimations.push("backward");
             }
             else if(key === "ArrowUp"){
                 queuedAnimations.push("kick");
             }
-            else if(key === "ArrowRight"){
+            else if(key === "ArrowLeft"){
                 queuedAnimations.push("forward");
             }
             else if(key === "ArrowDown"){
