@@ -9,7 +9,7 @@ let c = document.getElementById("myCanvas");
     }
 
     let imagePath = (frameNumber, animation) => {
-        return animation + frameNumber + ".png";
+        return "" + animation + frameNumber + ".png";
     };
 
     let frames = {
@@ -124,7 +124,7 @@ let c = document.getElementById("myCanvas");
     }
 
     let imagePathB = (frameNumberB, animationB) => {
-        return  ""+ "B" + animationB + frameNumberB + ".png";
+        return  "B" + animationB + frameNumberB + ".png";
     };
 
     let framesB = {
